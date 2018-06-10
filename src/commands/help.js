@@ -29,7 +29,7 @@ module.exports = class HelpCommand {
     return {
       triggers: ['help'],
       description: 'You\'re staring at it :eyes:',
-      usage: 'help [command]'
+      usage: '{command} [command]'
     };
   }
 }
