@@ -6,7 +6,7 @@ module.exports = class KickCommand extends GenericModCommand {
       action: ['unmute', 'unmuted'],
       dm: false,
       triggers: ['unmute'],
-      usage: 'unmute [@user] <reason>',
+      usage: 'unmute <@user> [reason]',
       description: 'Unmutes the mentioned user'
     });
   }
