@@ -6,7 +6,7 @@ module.exports = class SayCommand {
   get props () {
     return {
       triggers: [ 'say', 'repeat', 's' ],
-      usage: 'say <message>',
+      usage: '{command} <message>',
       description: 'Repeats a message through the bot.'
     };
   }
