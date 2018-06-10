@@ -27,7 +27,7 @@ module.exports = class DehoistCommand {
   get props () {
     return {
       triggers: ['dehoist'],
-      usage: 'dehoist',
+      usage: '{command}',
       description: 'Dehoist everyone if auto dehoist fails'
     };
   }
