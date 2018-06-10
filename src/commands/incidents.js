@@ -47,7 +47,7 @@ module.exports = class IncidentsCommand {
     return {
       triggers: [ 'incidents', 'whyismybotmuted' ],
       description: 'hello why is my bot muted???????????',
-      usage: 'incidents <id/mention> [pageNumber (defaults to 1)]'
+      usage: '{command} <id/mention> [pageNumber (defaults to 1)]'
     };
   }
 };
