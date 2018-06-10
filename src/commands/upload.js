@@ -34,7 +34,7 @@ module.exports = class UploadCommand {
     return {
       triggers: ['upload'],
       usage: '{command}',
-      description: 'Uploads your image to a (host)[https://boisbetterthanluca.xyz/]'
+      description: 'Uploads your image to boisbetterthanluca.xyz'
     };
   }
 };
