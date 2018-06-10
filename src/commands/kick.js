@@ -6,7 +6,7 @@ module.exports = class KickCommand extends GenericModCommand {
       action: ['kick', 'kicked'],
       dm: true,
       triggers: ['kick'],
-      usage: 'kick [@user] <reason>',
+      usage: '{command} <@user> [reason]',
       description: 'Kicks the mentioned user'
     });
   }
