@@ -28,8 +28,8 @@ module.exports = class HelpCommand {
   get props () {
     return {
       triggers: ['help'],
-      description: 'suk my duc natan',
-      usage: '{command} [command]'
+      description: 'You\'re staring at it :eyes:',
+      usage: 'help command'
     };
   }
 }
