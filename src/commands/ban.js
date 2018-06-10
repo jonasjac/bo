@@ -6,7 +6,7 @@ module.exports = class KickCommand extends GenericModCommand {
       action: ['ban', 'banned'],
       dm: true,
       triggers: ['ban'],
-      usage: 'ban [@user] <reason>',
+      usage: 'ban <@user> [reason]',
       description: 'Bans the mentioned user'
     });
 
