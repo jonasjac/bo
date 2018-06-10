@@ -28,7 +28,7 @@ module.exports = class PurgeCommand {
   get props () {
     return {
       triggers: ['purge', 'clean', 'clear'],
-      usage: 'purge <count> [@user] [#channel]',
+      usage: '{command} <count> [@user] [#channel]',
       description: 'Clean an amount of messages. Arguments can be in any order.'
     };
   }
