@@ -12,7 +12,7 @@ module.exports = class PrefixCommand {
   get props () {
     return {
       triggers: [ 'prefix', 'setprefix' ],
-      usage: 'prefix [new prefix]',
+      usage: '{command} [new prefix]',
       description: 'Lets you have your own prefix for Bo'
     };
   }
